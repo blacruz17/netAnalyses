@@ -25,8 +25,7 @@ En principio se puede hacer todo con [NetCoMi](https://github.com/stefpeschel/Ne
 
 # Preprocesado
 
-Algunas veces me he encontrado con redes a las que les salen unas estructuras un poco raras:
-![image](https://hackmd.io/_uploads/HyzimY-aR.png)
+Algunas veces me he encontrado con redes a las que les salen unas estructuras un poco raras.
 
 Esa estructura de abajo no es muy normal. Después de muchas pruebas, creo que esa especie de cogollo, piña :pineapple: o lo que sea viene de nodos con abundancias muy pequeñas, y suele desaparecer si se hace un **filtrado**. A mí incluso me han salido bichos con abundancia = 0 en todas las muestras, que no sé muy bien qué hacían en mi objeto `phyloseq` en primer lugar. 
  
